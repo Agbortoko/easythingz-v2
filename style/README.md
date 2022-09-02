@@ -1,0 +1,1 @@
+- The bootstrap version used is 5.2

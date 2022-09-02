@@ -1,0 +1,149 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-gray-dark {
+  background-color: #e9ecef;
+}
+
+.bg-primary-light {
+  background-color: #cfe2ff;
+}
+
+.bg-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#0d6efd), to(#0a58ca));
+  background: linear-gradient(to left, #0d6efd, #0a58ca);
+  color: #fff;
+}
+
+.bg-gradient-indigo {
+  background: -webkit-gradient(linear, left top, right top, from(#6610f2), to(#520dc2));
+  background: linear-gradient(to right, #6610f2, #520dc2);
+  color: #fff;
+}
+
+.bg-gradient-red {
+  background: -webkit-gradient(linear, left top, right top, from(#dc3545), to(#b02a37));
+  background: linear-gradient(to right, #dc3545, #b02a37);
+  color: #fff;
+}
+
+.bg-gradient-orange {
+  background: -webkit-gradient(linear, left top, right top, from(#fd7e14), to(#ca6510));
+  background: linear-gradient(to right, #fd7e14, #ca6510);
+  color: #fff;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+p, a {
+  font-size: 0.875rem;
+}
+
+.secondary-navigation .nav-item .nav-link {
+  font-family: 'Ubuntu', 'Montserrat', 'sans-serif';
+}
+
+.secondary-navigation .nav-item:hover {
+  background-color: #6ea8fe;
+}
+
+.secondary-navigation .nav-item.active {
+  background-color: #6ea8fe;
+}
+
+.hero-section {
+  background-image: url("../images/journey.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-color: #343a40;
+}
+
+.caption-section {
+  margin-top: -120px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.02rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-highlight-color: #cfe2ff;
+  scrollbar-color: #6ea8fe #cfe2ff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #cfe2ff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6ea8fe;
+  border-radius: 20px;
+  border: 3px solid #cfe2ff;
+}
+
+.services-section {
+  overflow: hidden;
+}
+
+.services-section img {
+  position: absolute;
+}
+
+.services-section .right-image {
+  left: 50%;
+  max-width: 50%;
+  opacity: 0.1;
+}
+
+.services-section .left-image {
+  right: 50%;
+  max-width: 50%;
+  opacity: 0.1;
+}
+
+.footer .footer-widget h6 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer .footer-widget .short-links {
+  color: #fff;
+}
+
+.footer .footer-widget .short-links a {
+  color: #fff;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.footer .footer-widget .short-links a:hover {
+  color: #0d6efd;
+}
+/*# sourceMappingURL=custom.css.map */

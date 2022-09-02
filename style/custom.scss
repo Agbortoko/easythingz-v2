@@ -1,0 +1,160 @@
+@import "bootstrap/functions";
+@import 'bootstrap/variables';
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-gray-dark{
+  background-color: $gray-200;
+}
+
+.bg-primary-light{
+  background-color: $blue-100;
+}
+
+.bg-gradient-primary{
+  background: linear-gradient(to left, $blue, $blue-600);
+  color: $white;
+}
+
+.bg-gradient-indigo{
+  background: linear-gradient(to right, $indigo, $indigo-600);
+  color: $white;
+}
+
+.bg-gradient-red{
+  background: linear-gradient(to right, $red, $red-600);
+  color: $white;
+}
+
+.bg-gradient-orange{
+  background: linear-gradient(to right, $orange, $orange-600);
+  color: $white;
+}
+
+.btn{
+  border-radius: 3px;
+}
+
+p, a{
+  font-size: 0.875rem;
+}
+
+.secondary-navigation {
+  .nav-item{
+    .nav-link{
+      font-family: 'Ubuntu', 'Montserrat', 'sans-serif';
+    }
+  }
+
+  .nav-item:hover{
+    background-color: $primary-light;
+  }
+  .nav-item.active{
+    background-color: $primary-light;
+  }
+}
+
+
+.hero-section{
+  background-image: url("../images/journey.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-color: $gray-800;
+}
+
+.caption-section{
+  margin-top: -120px;
+}
+
+h1{
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.02rem;
+}
+
+.icon{
+  font-size: 2rem;
+}
+.image{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-highlight-color: $blue-100;
+  scrollbar-color: $blue-300 $blue-100;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $blue-100;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $blue-300;
+  border-radius: 20px;
+  border: 3px solid $blue-100;
+}
+
+.services-section{
+  overflow: hidden;
+  img{
+    position: absolute;
+  }
+
+  .right-image{
+    left: 50%;
+    max-width: 50%;
+    opacity: 0.1;
+  }
+
+  .left-image{
+    right: 50%;
+    max-width: 50%;
+    opacity: 0.1;
+  }
+}
+
+
+.footer{
+  .footer-widget{
+    h6{
+      color: $white;
+      font-weight: 600;
+    }
+    
+    .short-links{
+      color: $white;
+      a{
+        color: $white;
+        line-height: 2;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color :$blue-500;
+      }
+    }
+
+
+  }
+}
+
+
+
