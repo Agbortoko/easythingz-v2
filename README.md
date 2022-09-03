@@ -11,4 +11,4 @@ A preview of this website and screenshot can be seen below
 
 [Click Here to see The Website Preview](https://agbortoko.github.io/easythingz-v2/)
 
-##The website contains only the front page and is extremely basic! Nothing to complicated.
+### The website contains only the front page and is extremely basic! Nothing to complicated.
